@@ -1,0 +1,36 @@
+body {
+  background-color: #09181f;
+}
+.btn, .btn-primary {
+  background-color: white;
+  color: #133591;
+}
+p {
+  color: #bacad1;
+}
+.display-1 {
+  color: #e1e6e5;
+}
+.card, .list-group-item {
+  background-color: #e1e6e5;
+}
+.list-group-item:hover {
+  background-color: #133591;
+  color: #e1e6e5;
+}
+h3 {
+  color: #e1e6e5;
+}
+h5 {
+  color: #133591;
+}
+.card-text {
+  color: #0d2259;
+}
+h6 {
+  color: #e1e6e5;
+}
+.img {
+  width: 200px;
+  margin: auto;
+}
