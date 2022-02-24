@@ -25,7 +25,7 @@ h5 {
   color: #133591;
 }
 .card-text {
-  color: #0d2259;
+  color: #133591;
 }
 h6 {
   color: #e1e6e5;
@@ -36,4 +36,10 @@ h6 {
 }
 h2, li {
   color: #e1e6e5;
+}
+.nav-link {
+  color: #e1e6e5;
+}
+.nav-link, active {
+  background-color: #133591;
 }
