@@ -1,0 +1,22 @@
+/*need help with animations, trying to make it size up when you hover over a card*/
+.card:hover {
+  animation: largeview 2s forwards;
+}
+
+@keyframes largeview {
+  from {
+    height: 50px;
+    width: 30px;
+  }
+
+  to {
+    height: 100px;
+    width: 60px;
+  }
+}
+
+/*popup stuff - https://www.quackit.com/javascript/popup_windows.cfm*/
+function basicPopup(url) {
+popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+	}
+/*want it to look like the swal one but other info on it https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/*/
